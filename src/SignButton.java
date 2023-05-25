@@ -9,13 +9,12 @@ public class SignButton extends Button implements ActionListener {
 
     static {
         signs = new HashSet<>();
-        signs.add(Signs.DIVIDE.getSign());
-        signs.add(Signs.MINUS.getSign());
-        signs.add(Signs.PLUS.getSign());
-        signs.add(Signs.MULTIPLY.getSign());
+        for (Sign sign : Sign.values()) {
+            signs.add(sign.getSign());
+        }
     }
 
-    public SignButton(int x, int y, Signs sign) throws IllegalArgumentException {
+    public SignButton(int x, int y, Sign sign) throws IllegalArgumentException {
         super(sign.toString());
         if (!signs.contains(sign.getSign())) {
             throw new IllegalArgumentException();
