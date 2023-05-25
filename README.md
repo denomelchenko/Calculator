@@ -28,7 +28,7 @@
 6. The result will be displayed in the calculator's text field.
 
 ## Screenshots
-![Calculator image](https://github.com/denomelchenko/Calculator/assets/124204526/4ffc3e37-dda8-4a5b-a65a-9a91f2aaff99)
+![img.png](img.png)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
