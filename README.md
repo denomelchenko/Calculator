@@ -28,7 +28,7 @@
 6. The result will be displayed in the calculator's text field.
 
 ## Screenshots
-![img.png](img.png)
+![img.png](images/img.png)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
