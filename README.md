@@ -9,9 +9,6 @@
 * Division: Perform integer division of two numbers.
 * Clear: Clear the input fields and result.
 
-## Prerequisites
-
-
 ## Getting Started
 1. Install Java Development Kit (JDK).
 1. Download the repository to your local machine or clone it by `git clone https://github.com/denomelchenko/Calculator.git`
